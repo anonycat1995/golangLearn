@@ -1,3 +1,7 @@
+package test
+import "testing"
+
+
 func TestSum(t *testing.T) {
 
     t.Run("collection of 5 numbers", func(t *testing.T) {
