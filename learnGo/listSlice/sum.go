@@ -1,7 +1,7 @@
 package listSlice
 
 func Sum(l [5]int) int {
-	sum := 0
+	var sum int
 	for _, v := range l {
 		sum += v
 	}
